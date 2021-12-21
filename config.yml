@@ -1,0 +1,4 @@
+spotify:
+  client_id: GET_FROM_SPOTIFY_DEV_DASHBOARD
+  client_secret: GET_FROM_SPOTIFY_DEV_DASHBOARD
+  redirect_uri: GET_FROM_SPOTIFY_DEV_DASHBOARD
