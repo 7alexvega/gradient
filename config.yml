@@ -2,3 +2,12 @@ spotify:
   client_id: GET_FROM_SPOTIFY_DEV_DASHBOARD
   client_secret: GET_FROM_SPOTIFY_DEV_DASHBOARD
   redirect_uri: GET_FROM_SPOTIFY_DEV_DASHBOARD
+
+hue:
+  bridge:
+    host: LOCAL_HUE_BRIDGE_IP
+    scheme: http
+    api_key: GET_FROM_HUE_API_DEV_DASHBOARD
+  lights:
+    - HUE_LIGHT_NUMBER
+    - HUE_LIGHT_NUMBER
