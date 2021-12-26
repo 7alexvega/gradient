@@ -16,3 +16,6 @@ image:
   extension: jpg
   background_blur_amount: 20
   wallpaper_dir: wallpapers
+
+gradient:
+  refresh_delay_s: 1
