@@ -278,3 +278,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm+all,windows
+
+#Gradient user files
+wallpapers
+user_wallpaper.jpg
+db.json
