@@ -1,3 +1,4 @@
+import atexit
 import time
 
 from config import config
@@ -12,6 +13,8 @@ def main():
     windows = Windows()
     image = Image()
     hue = Hue()
+
+    atexit.register(windows.revert_wallpaper)
 
     previous_song = None
 
