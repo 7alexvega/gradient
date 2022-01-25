@@ -6,6 +6,9 @@ Gradient is a Python program designed to create a reactive and ambient music lis
 ## About
 Gradient works by locally observing which songs are playing on Spotify. Once it detects a song change, it reaches out to the Spotify API to retrieve the corresponding album art image and creates a wallpaper from it. Furthermore, it calculates the dominant colors present in the album art and uses the Phillips Hue API to match the lights to the dominant colors.
 
+## Demo
+[![Watch the video](https://img.youtube.com/vi/NGPCH_3HoPI/maxresdefault.jpg)](https://youtu.be/NGPCH_3HoPI)
+
 ## Prerequisites 
   - [Create a Spotify developer account and application](https://developer.spotify.com/documentation/web-api/quick-start/), obtaining the following: `client_id`, `client_secret` and `redirect_url`
   - [Create a Hue developer user](https://developers.meethue.com/develop/get-started-2/), obtaining an authorized user api key
